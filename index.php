@@ -63,7 +63,7 @@ session_start();
                     ?>
 
                     <?php if (isset($_SESSION['is_admin']) && $_SESSION['is_admin'] == "0") {
-                        echo "<li><a href='books.php'>Books</a></li>";
+                        echo "<li><a href='games.php'>Games</a></li>";
                     }
                     ?>
                 </ul>
